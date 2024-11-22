@@ -4,7 +4,7 @@ import com.agpaz.bankapi.model.Account
 import com.agpaz.bankapi.repository.AccountRepository
 import org.springframework.stereotype.Service
 import org.springframework.util.Assert
-import java.util.*
+import java.util.Optional
 
 @Service
 class AccountServiceImpl(private val repository: AccountRepository) : AccountService {

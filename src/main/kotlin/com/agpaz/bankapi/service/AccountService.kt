@@ -1,7 +1,7 @@
 package com.agpaz.bankapi.service
 
 import com.agpaz.bankapi.model.Account
-import java.util.*
+import java.util.Optional
 
 interface AccountService {
     fun create(account: Account): Account
